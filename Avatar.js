@@ -100,19 +100,32 @@ const Avatar = props => {
 
   const renderContent = () => {
     if (source) {
+      let sources = !Array.isArray(source) ? [source] : source.slice(0, Math.min(source.length, 4));
       
-      // Work here!
+      let numOfRows = Math.ceil(sources.length / 2);
+      let imageHeight = height / numOfRows;
+      let imageWidth = width/2 - 0.5;
       
       return (
-        <Image
+        <View
           style={[
             styles.avatar,
             rounded && { borderRadius: width / 2 },
-            avatarStyle && avatarStyle,
-          ]}
-          source={source}
-          {...imageProps}
-        />
+            { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', overflow: 'hidden' }
+          ]}>
+          {sources.map((item, index) => {
+            if (index === sources.length-1 && (sources.length % 2 !== 0))
+              imageWidth = width;
+        
+            return (
+              <Image
+                key={index}
+                style={{ marginBottom: 1, width: imageWidth, height: imageHeight }}
+                source={item}
+              />
+            );
+          })}
+        </View>
       );
     } else if (title) {
       return (
