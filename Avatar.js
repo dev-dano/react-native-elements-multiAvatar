@@ -100,6 +100,9 @@ const Avatar = props => {
 
   const renderContent = () => {
     if (source) {
+      
+      // Work here!
+      
       return (
         <Image
           style={[
@@ -214,7 +217,10 @@ Avatar.propTypes = {
   onPress: PropTypes.func,
   onLongPress: PropTypes.func,
   containerStyle: PropTypes.any,
-  source: Image.propTypes.source,
+  source: PropTypes.oneOfType([
+     Image.propTypes.source,
+     PropTypes.arrayOf(Image.propTypes.source)
+  ]),
   avatarStyle: PropTypes.any,
   rounded: PropTypes.bool,
   title: PropTypes.string,
