@@ -111,7 +111,13 @@ const Avatar = props => {
           style={[
             styles.avatar,
             rounded && { borderRadius: width / 2 },
-            { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', overflow: 'hidden' }
+            {
+              flexDirection: 'row',
+              flexWrap: 'wrap',
+              justifyContent: 'space-between',
+              overflow: 'hidden',
+              backgroundColor: 'white'
+            }
           ]}>
           {sources.map((item, index) => {
             if (index === sources.length-1 && (sources.length % 2 !== 0))
