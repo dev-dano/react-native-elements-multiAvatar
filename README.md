@@ -1,3 +1,10 @@
+**_UPDATE: Pull request created with slightly modified code._**
+[**Repo**](https://github.com/dev-dano/react-native-elements)
+
+<img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/comment.png?raw=true' width="80%" height="80%">
+
+------
+
 # react-native-elements-multiAvatar
 Avatar component can now take an array of image sources to render multiple images in a single avatar.
 
