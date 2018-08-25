@@ -1,7 +1,11 @@
 **_UPDATE: Pull request created with slightly modified code._**
 [**Repo**](https://github.com/dev-dano/react-native-elements)
 
-<img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/comment.png?raw=true' width="80%" height="80%">
+<img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/src/images/comment1.png?raw=true' width="80%" height="80%">
+
+<img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/src/images/comment3.png?raw=true' width="80%" height="80%">
+
+<img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/src/images/comment2.png?raw=true' width="80%" height="80%">
 
 ------
 
@@ -29,4 +33,4 @@ Avatar component can now take an array of image sources to render multiple image
 ## Use case
 Group chat
 
-<img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/example.png?raw=true' width="40%" height="40%">
+<img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/src/images/example.png?raw=true' width="40%" height="40%">
