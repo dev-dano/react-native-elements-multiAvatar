@@ -1,6 +1,8 @@
 **_UPDATE: Pull request created with slightly modified code._**
 [**Repo**](https://github.com/dev-dano/react-native-elements)
 
+_"I ended up modifiying considerable amount of code due to merge conflicts. Those of you who are contributing for the first time and new to Git, make sure to talk to one of members or contributors ahead of time and know Git basic concepts!"_
+
 <img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/src/images/comment1.png?raw=true' width="80%" height="80%">
 
 <img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/src/images/comment3.png?raw=true' width="80%" height="80%">
