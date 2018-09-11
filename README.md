@@ -2,7 +2,10 @@
 
 _"I ended up modifiying considerable amount of code due to merge conflicts. Those of you who are contributing for the first time and new to Git, make sure to talk to one of members or collaborators ahead of time and know Git basic concepts!"_
 
-_**dano-multiAvatar** branch has the earlier commits, and **dano-ma** branch_ is where I am currently working on according to suggestions made by members. [**Repo**](https://github.com/dev-dano/react-native-elements)
+_**dano-multiAvatar** branch has the earlier commits, and **dano-ma** branch_ is where I am currently working on according to suggestions made by members. [**(Repo)**](https://github.com/dev-dano/react-native-elements)
+
+[**(Original PR)**](https://github.com/react-native-training/react-native-elements/pull/1385)
+[**(Updated PR)**](https://github.com/react-native-training/react-native-elements/pull/1422)
 
 <img src='https://github.com/dev-dano/react-native-elements-multiAvatar/blob/master/src/images/comment1.png?raw=true' width="80%" height="80%">
 
